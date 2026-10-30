@@ -1,0 +1,140 @@
+<mxfile host="app.diagrams.net" agent="Claude">
+  <diagram id="casos-uso-rpg" name="Casos de uso RPG Manager">
+    <mxGraphModel dx="1458" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="limite" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;fontStyle=1;fontSize=16;strokeColor=#B432FF;" value="RPG Manager" vertex="1">
+          <mxGeometry height="720" width="640" x="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a_gm" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Game Master" vertex="1">
+          <mxGeometry height="60" width="30" x="980" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="a_correo" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Servicio de Correo" vertex="1">
+          <mxGeometry height="60" width="30" x="980" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="cu01" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#4FFF6F, #006400);strokeColor=#6c8ebf;fontSize=11;" value="CU-01 Registrarse" vertex="1">
+          <mxGeometry height="50" width="160" x="265" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cu02" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4FFF6F;strokeColor=#6c8ebf;fontSize=11;" value="CU-02 Iniciar sesión" vertex="1">
+          <mxGeometry height="50" width="160" x="265" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cu03" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4FFF6F;strokeColor=#6c8ebf;fontSize=11;" value="CU-03 Crear Personaje" vertex="1">
+          <mxGeometry height="50" width="160" x="265" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cu04" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4FFF6F;strokeColor=#6c8ebf;fontSize=11;" value="CU-04 Elegir clase" vertex="1">
+          <mxGeometry height="50" width="150" x="500" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cu05" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4FFF6F;strokeColor=#6c8ebf;fontSize=11;" value="CU-05 Gestionar Inventario" vertex="1">
+          <mxGeometry height="50" width="160" x="265" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4FFF6F;strokeColor=#6c8ebf;fontSize=11;" value="CU-06 Unirse a Misión" vertex="1">
+          <mxGeometry height="50" width="160" x="265" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="cu07" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4FFF6F;strokeColor=#6c8ebf;fontSize=11;" value="CU-07 Combatir en la Arena" vertex="1">
+          <mxGeometry height="50" width="160" x="265" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="cu08" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4FFF6F;strokeColor=#6c8ebf;fontSize=11;" value="CU-08 Validar Personaje vivo" vertex="1">
+          <mxGeometry height="50" width="150" x="500" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="cu09" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4FFF6F;strokeColor=#6c8ebf;fontSize=11;" value="CU-09 Usar poción" vertex="1">
+          <mxGeometry height="50" width="150" x="500" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="cu10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4FFF6F;strokeColor=#6c8ebf;fontSize=11;" value="CU-10 Consultar ranking" vertex="1">
+          <mxGeometry height="50" width="160" x="265" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="cu11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4FFF6F;strokeColor=#6c8ebf;fontSize=11;" value="CU-11 Crear Misión" vertex="1">
+          <mxGeometry height="50" width="150" x="700" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="cu12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4FFF6F;strokeColor=#6c8ebf;fontSize=11;" value="CU-12 Moderar jugadores" vertex="1">
+          <mxGeometry height="50" width="150" x="700" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF4F87;strokeColor=#d79b00;fontSize=11;" value="CU-13 Comprar ítem exclusivo" vertex="1">
+          <mxGeometry height="50" width="160" x="265" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="as01" edge="1" parent="1" style="endArrow=none;html=1;" target="cu01">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="345.83333300000004" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="as02" edge="1" parent="1" style="endArrow=none;html=1;" target="cu02">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="349.7222219999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="as03" edge="1" parent="1" style="endArrow=none;html=1;" target="cu03">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="353.61111099999994" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="as05" edge="1" parent="1" style="endArrow=none;html=1;" target="cu05">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="358.055556" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="as06" edge="1" parent="1" style="endArrow=none;html=1;" target="cu06">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="362.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="as07" edge="1" parent="1" style="endArrow=none;html=1;" target="cu07">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="366.944444" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="as10" edge="1" parent="1" style="endArrow=none;html=1;" target="cu10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="371.38888900000006" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="as_correo" edge="1" parent="1" source="cu01" style="endArrow=none;html=1;" target="a_correo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as11" edge="1" parent="1" source="a_gm" style="endArrow=none;html=1;" target="cu11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as12" edge="1" parent="1" source="a_gm" style="endArrow=none;html=1;" target="cu12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="as13" edge="1" parent="1" style="endArrow=none;html=1;" target="cu13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="631.944444" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gen" edge="1" parent="1" style="endArrow=block;endFill=0;html=1;endSize=12;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="600" as="sourcePoint" />
+            <mxPoint x="75" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="inc1" edge="1" parent="1" source="cu03" style="dashed=1;endArrow=open;html=1;endSize=8;fontSize=10;labelBackgroundColor=#ffffff;" target="cu04" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc2" edge="1" parent="1" source="cu06" style="dashed=1;endArrow=open;html=1;endSize=8;fontSize=10;labelBackgroundColor=#ffffff;" target="cu08" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inc3" edge="1" parent="1" source="cu07" style="dashed=1;endArrow=open;html=1;endSize=8;fontSize=10;labelBackgroundColor=#ffffff;" target="cu08" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ext1" edge="1" parent="1" source="cu09" style="dashed=1;endArrow=open;html=1;endSize=8;fontSize=10;labelBackgroundColor=#ffffff;" target="cu07" value="&lt;&lt;extend&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Ztk7dwuNZLraJ7Ndaf-1" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="40" x="50" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Ztk7dwuNZLraJ7Ndaf-2" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="40" x="50" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Ztk7dwuNZLraJ7Ndaf-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="jugador casual" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Ztk7dwuNZLraJ7Ndaf-4" edge="1" parent="1" source="n4Ztk7dwuNZLraJ7Ndaf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="n4Ztk7dwuNZLraJ7Ndaf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4Ztk7dwuNZLraJ7Ndaf-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="jugador premium" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="660" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
