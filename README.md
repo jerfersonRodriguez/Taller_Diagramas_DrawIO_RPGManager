@@ -20,7 +20,7 @@ Repositorio para la entrega del taller de diagramas del proyecto **RPG Manager**
 ---
 
 ### 2. Modelo Entidad-Relación (DER)
-![Modelo Entidad Relación](diagramas/modelo_er.png)
+![Modelo Entidad Relación](02_casos_uso_rpg.drawio.png)
 
 ---
 
