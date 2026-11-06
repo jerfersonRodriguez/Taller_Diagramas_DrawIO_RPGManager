@@ -24,8 +24,10 @@ Repositorio para la entrega del taller de diagramas del proyecto **RPG Manager**
 
 ---
 
+
 ### 3. Diagrama de Clases / Arquitectura
-![Diagrama de Clases](03_actividades_combate-CU-07 Combatir en la Arena.drawio.png)
+![Diagrama de Clases](diagramas/03_actividades_combate-CU-07%20Combatir%20en%20la%20Arena.drawio.png)
 
 ---
 
+> **Nota:** Los archivos editables `.drawio` se encuentran disponibles dentro de la carpeta `diagramas/` de este repositorio.
