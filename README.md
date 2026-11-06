@@ -15,7 +15,7 @@ Repositorio para la entrega del taller de diagramas del proyecto **RPG Manager**
 ## Diagramas del Proyecto
 
 ### 1. Diagrama de Casos de Uso
-![Diagrama de Casos de Uso](diagramas/casos_de_uso.png)
+![Diagrama de Casos de Uso](01_contexto_rpg.drawio.png)
 
 ---
 
